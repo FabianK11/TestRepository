@@ -1,0 +1,5 @@
+LOCAL_OBJECTS = \
+phase.o\
+multiphaseAlphaContactAngleFvPatchScalarField.o\
+multiphaseMixture.o\
+multiphaseInterFoam.o

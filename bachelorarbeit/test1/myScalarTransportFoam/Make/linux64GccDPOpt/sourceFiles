@@ -1,0 +1,2 @@
+SOURCE = \
+myScalarTransportFoam.C

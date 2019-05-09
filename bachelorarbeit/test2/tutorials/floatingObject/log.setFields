@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build  : 4.1-752fce1a0260
+Exec   : setFields
+Date   : May 09 2019
+Time   : 09:28:08
+Host   : "fabian-Latitude-E6320"
+PID    : 7235
+CtrlDict : "/home/fabianspieler/foam/fabianspieler-4.1/run/bachelorarbeit/test2/tutorials/floatingObject/system/controlDict"
+Case   : /home/fabianspieler/foam/fabianspieler-4.1/run/bachelorarbeit/test2/tutorials/floatingObject
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Time = 0
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting field default values
+    Setting volScalarField alpha1
+
+Setting field region values
+    Adding cells with center within box (-100 -100 -100) (100 100 0.5368)
+    Setting volScalarField alpha1
+    Adding cells with center within box (0.7 0.8 -100) (100 100 0.65)
+    Setting volScalarField alpha1
+
+End
